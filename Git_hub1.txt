@@ -1,0 +1,194 @@
+ADMIN@DESKTOP-QQP8AME MINGW64 ~
+$ git config --global user.Devika-Govada
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~
+$ git config --global user.devikagovada92@gmail.com
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~
+$ git config --global --list
+user.name=Devika-Govada
+user.email=devikagovada92@gmail.com
+core.autocrlf=true
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~
+$ pwd
+/c/Users/ADMIN
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{30e20df0-4b40-11eb-b0b0-92f73d4be388}.TM.blf
+ NTUSER.DAT{30e20df0-4b40-11eb-b0b0-92f73d4be388}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{30e20df0-4b40-11eb-b0b0-92f73d4be388}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled2.ipynb
+ Untitled3.ipynb
+ Untitled4.ipynb
+ Videos/
+'VirtualBox VMs - Shortcut.lnk'*
+ anaconda3/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~
+$ cd desktop/
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop
+$ ls
+AnyDesk.exe*  FLOW_TECH.xlsx  KMPlayer.lnk*  tech_task_FLOW_analytics.xlsx
+Capture.PNG   GitRepo/        desktop.ini
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop
+$ cd GitRepo/
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo
+$ mkdir MyRepo/
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo
+$ ls
+MyRepo/
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo
+$ cd MyRepo/
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo
+$ git clone https://github.com/Devika-Govada/DataScience-AI.git
+Cloning into 'DataScience-AI'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo
+$ cd Data_Science
+bash: cd: Data_Science: No such file or directory
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo
+$ cd DataScience-AI
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ ls
+README.md
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ ls-al
+bash: ls-al: command not found
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ mkdir Python
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ mkdir Statistics
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ mkdir Machine_Learning
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ ls
+Machine_Learning/  Python/  README.md  Statistics/
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ cd Python
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI/Python (main)
+$
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI/Python (main)
+$ vim f1.py - It will create new pyton code.
+
+after enter this command, we can easily write a code above insert keyword.Once finish the code just click on escape button 
+then you will go to command line in the down.
+
+Just write :wq and enter.File has been created succesfully.
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI/Python (main)
+$ cat f1.py - It will use to see the create the file content
+a=10
+b=20
+c=a+b
+print(c)
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI/Python (main)
+$ vim f1.py -If you want to do any modification in the file use this
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI/Python (main)
+$ cd ..
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git_hub1.txt
+        Python/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ git add . - To copy all the files into git hub repository
+warning: LF will be replaced by CRLF in Python/f1.py.
+The file will have its original line endings in your working directory
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ git add . - Files will add into staging area(in origin only)
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ git status - To check the files are moved into or not??
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Git_hub1.txt
+        new file:   Python/f1.py
+
+ADMIN@DESKTOP-QQP8AME MINGW64 ~/desktop/GitRepo/MyRepo/DataScience-AI (main)
+$ git push
+# Git Commands:-
+For set up
+git config --global user.name User_name_in_quotation_if_space_in_name
+git config --global user.email User_email_id
+git config --global core.autocrlf true(Win)/input(Mac)
+git config --global --list
+
+
+git clone Repo_link -> Clones the repository from cloud to your local system
+git status - to check the status of the repo
+git add Dir_name/FileName_with_Extension - Move the file to staging area
+git commit - m 'msg' - move the file to local repo with the msg
+git push - push the code to cloud repo (Will ask for credentail while doing first time)
+gil pull - pulling all the changes from your cloud repo to local repo
+
+
+# File realted operation
+To open a file from CLI - vim filename.ext
+to go into insert mode - press 'i'
+to save and exit - press - 'esc' + :wq
+helo world
